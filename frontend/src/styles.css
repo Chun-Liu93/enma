@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%; /* Adjusts to the screen width */
+    box-shadow: 0 2px 5px rgba(203, 203, 203, 0.3); /* Optional shadow for better separation */
+    z-index: 10; /* Add this to ensure the navbar is above other elements */
+    margin-bottom: 2px;
+}
+
+.navbar ul {
+    display: flex; 
+    padding: 0;   
+    margin: 0;     
+}
+
+.navbar li {
+    margin-right: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar2 {
+    display: flex;
+    padding: 15px 20px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%; /* Adjusts to the screen width */
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar2 ul{
+    display: flex; 
+    padding: 0;   
+    margin: 0;     
+}
+
+.navbar2 li{
+    margin-right: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar a, .navbar2 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.125rem; /* Using rem for better responsiveness */
+}
+
+.navbar a:hover, .navbar2 a:hover {
+    background-color: transparent;
+    color: rgb(216, 127, 127);
+}

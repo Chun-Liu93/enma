@@ -1,10 +1,10 @@
 import React from 'react';
+import FetchCategories from './Api';
 
 const Home = () => {
     return (
         <div className="home">
-            <h1>Welcome to the Home Page!</h1>
-            {/* Add more content here */}
+            <FetchCategories />
         </div>
     );
 };
